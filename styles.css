@@ -1,11 +1,10 @@
 body {
   background-color: hsl(30, 38%, 92%);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  max-height: 80%;
 }
 .card {
   width: 20rem;
@@ -98,31 +97,31 @@ p {
     border-radius: 1em;
   }
   .card {
-    width: 100vh;
-    height: auto;
+    width: min-content;
+    max-height: 90vh;
     display: flex;
     flex-direction: row;
     align-self: center;
     justify-self: center;
   }
   .perfume-img {
-    width: 50vh;
-    object-fit: cover;
+    width: 450px;
+    object-fit: contain;
   }
   .content{
     padding-left: 40px;
   }
   .subtitol {
-    font-size: 20px;
+    font-size: 10px;
     letter-spacing: 5px;
   }
   .main-title {
     line-height: 0.9;
-    font-size: 30px;
+    font-size: 20px;
   }
   .main-text {
     text-align: inherit;
-    font-size: 25px;
+    font-size: 20px;
   }
   .prices p.new {
     font-size: 30px;
