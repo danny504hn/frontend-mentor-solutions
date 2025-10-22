@@ -13,6 +13,7 @@ body {
   overflow: hidden;
   background-color: hsl(0, 0%, 100%);
   font-weight: 500;
+  flex: 1;
 }
 .content {
   padding: 30px;
@@ -35,10 +36,6 @@ p {
   font-family: "Montserrat", serif;
   color: hsl(228, 12%, 48%);
   font-weight: 500;
-}
-.attribution {
-  position: absolute;
-  bottom: 0;
 }
 .subtitol-container {
   font-family: "Montserrat", serif;
